@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_common_grid_of_cards",
+  "info": {
+    "displayName": "Grid of Cards",
+    "icon": "collapse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "numberOfColumns": {
+      "type": "integer"
+    },
+    "backgroundColor": {
+      "type": "enumeration",
+      "enum": [
+        "red",
+        "zinc"
+      ]
+    },
+    "moreLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.link"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}

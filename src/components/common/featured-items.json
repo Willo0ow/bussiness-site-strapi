@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_common_featured_items",
+  "info": {
+    "displayName": "Featured Items",
+    "icon": "information",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "ctaLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.link"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_common_testimonials",
+  "info": {
+    "displayName": "Testimonials",
+    "icon": "thumbUp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "withImage": {
+      "type": "boolean"
+    },
+    "items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial"
+    }
+  }
+}

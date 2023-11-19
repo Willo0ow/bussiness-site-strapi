@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_common_ctas",
+  "info": {
+    "displayName": "Cta",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desscription": {
+      "type": "text"
+    },
+    "ctaLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.link"
+    }
+  }
+}

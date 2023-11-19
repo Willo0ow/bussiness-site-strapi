@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_headers",
+  "info": {
+    "singularName": "app-header",
+    "pluralName": "app-headers",
+    "displayName": "AppHeader",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "appName": {
+      "type": "string",
+      "required": true
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base.link"
+    }
+  }
+}

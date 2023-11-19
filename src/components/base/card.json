@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_base_cards",
+  "info": {
+    "displayName": "card",
+    "icon": "cast"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    },
+    "imageAlt": {
+      "type": "string"
+    }
+  }
+}

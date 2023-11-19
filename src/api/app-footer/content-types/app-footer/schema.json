@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_footers",
+  "info": {
+    "singularName": "app-footer",
+    "pluralName": "app-footers",
+    "displayName": "AppFooter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "leftCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "rightCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base.link"
+    }
+  }
+}

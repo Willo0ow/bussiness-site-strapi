@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_common_expandables",
+  "info": {
+    "displayName": "Expandable",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base.text-with-title"
+    }
+  }
+}

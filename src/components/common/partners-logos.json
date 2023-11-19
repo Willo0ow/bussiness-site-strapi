@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_common_partners_logos",
+  "info": {
+    "displayName": "PartnersLogos",
+    "icon": "collapse"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "bottomLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.link"
+    }
+  }
+}

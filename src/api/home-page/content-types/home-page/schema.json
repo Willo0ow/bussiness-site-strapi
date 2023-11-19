@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "route": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::route.route"
+    },
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroDescription": {
+      "type": "text"
+    },
+    "heroImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.image"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "common.cta",
+        "common.expandable",
+        "common.featured-items",
+        "common.grid-of-cards",
+        "common.partners-logos",
+        "common.testimonials"
+      ]
+    }
+  }
+}

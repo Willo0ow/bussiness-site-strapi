@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_base_text_with_titles",
+  "info": {
+    "displayName": "TextWithTitle",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "linksTo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::route.route"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
